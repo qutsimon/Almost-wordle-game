@@ -1,6 +1,6 @@
 # Almost wordle game #
 A game similar to the popular wordle game where a 5-letter word is guessed. This implementation
-of a game simiar to wordle includes both the server-side and client-side and includes several forms of security
+of the game is  similar to wordle includes both the server-side and client-side and includes several forms of security
 to ensure fair play.  The impelemented measures can be found below:
 
 
