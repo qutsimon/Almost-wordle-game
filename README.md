@@ -56,6 +56,8 @@ java Client HOSTNAME PORT_NUMBER
 
 * Initial connection protocol
 
+<div align="center">
+
 | Server | Client |
 | :--- | ---: |
 |  | Connects to server
@@ -69,6 +71,8 @@ java Client HOSTNAME PORT_NUMBER
 | | Start game keyword |
 | | <-------------- |
 
+</div>
+
 <br>
 
 All message except for the initial key exchange will also be in the form of a multi-dimensional byte array[][] with two rows. The first row (array[0][]) will contain the ciphertext of the message encrypted using the public key of the receiver and the second row of the array (array[1][]) will contain the plaintext hashed (using SHA3-256) then encrypted using the sender’s private key to create a signature. The server will check every message’s signature to see if it is valid. If the signature is not valid the server will terminate the connection.  
@@ -81,6 +85,8 @@ The server will also send a hash of the word that is chosen for the client to gu
   
 * Word guessing protocol
 
+<div align="center">
+
 | Server | Client |
 | :--- | ---: |
 | | Client's guess|
@@ -89,9 +95,12 @@ The server will also send a hash of the word that is chosen for the client to gu
 | -------------------> | |
 | **Continued until correct answer** | |  
 
+</div>
 <br>
 
 * Correct guess is made
+
+<div align="center">
 
 | Server | Client |
 | :--- | ---: |
@@ -101,3 +110,5 @@ The server will also send a hash of the word that is chosen for the client to gu
 | Game over message | |
 | -------------------> | |
 | Close connection | Close connection |
+
+</div>
