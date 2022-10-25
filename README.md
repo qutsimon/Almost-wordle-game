@@ -15,16 +15,20 @@ Non-security oreinted additonal implementations include:
 
 * **Server running Example**
 <br>
+<div align="center">
 
 ![Server example image](../img/serverexample.png?raw=true)
 
+</div>
 <br>
 
 * **Client running example**
 <br>
+<div align="center">
 
 ![Client example image](../img/clientexample.png?raw=true)
 
+</div>
 
 # Game rules #
 A 5-letter word is guessed and returns a hint where the letters of the target word are filled in 
