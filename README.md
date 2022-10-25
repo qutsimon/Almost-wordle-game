@@ -16,7 +16,12 @@ Non-security additonall implementations include:
 
 <br>
 
+* Server running Example
 ![Server example image](../img/serverexample.png?raw=true)
+
+<br>
+
+* Client running example
 ![Client example image](../img/clientexample.png?raw=true)
 
 
