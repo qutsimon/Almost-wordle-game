@@ -8,9 +8,16 @@ to ensure fair play.  The impelemented measures can be found below:
 * Message hash checks
 * Multiple hashes 
 
--mutlithreaded server - allows for multiple clients
+<br>
 
-![Test](../img/speed.png?raw=true)
+
+Non-security additonall implementations include:
+* Multi-threaded server to host multiple concurrent clients
+
+<br>
+
+![Server example image](../img/serverexample.png?raw=true)
+![Client example image](../img/clientexample.png?raw=true)
 
 
 # Game rules #
