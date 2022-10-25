@@ -8,22 +8,20 @@ to ensure fair play.  The impelemented measures can be found below:
 * Message hash checks
 * Multiple hashes 
 
-<br>
 
-
-Non-security additonall implementations include:
+Non-security oreinted additonal implementations include:
 * Multi-threaded server to host multiple concurrent clients
 
 <br>
 
-* Server running Example
+* **Server running Example**
 <br>
 
 ![Server example image](../img/serverexample.png?raw=true)
 
 <br>
 
-* Client running example
+* **Client running example**
 <br>
 
 ![Client example image](../img/clientexample.png?raw=true)
